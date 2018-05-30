@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  
+  <button ion-button full (click)="tirarFoto()">Tirar foto</button>
+  <img [src]="imgBase64" *ngIf="imgBase64"/>
+
+</ion-content>
